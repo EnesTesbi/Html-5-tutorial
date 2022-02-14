@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Ekranı</title>
+</head>
+<body>
+   <form>
+       <label for="name">Name : </label>       
+       <input type="text" id="name" name="name">
+       <br>
+       <br>
+       <label for="email">Email : </label>
+       <input type="email" id="email" name="email" placeholder="admin@gmail.com">
+       <br>
+       <br>
+       <label for="password">Password : </label>
+       <input type="password" id="password" name="password">
+       <br>
+       <br>
+       <label for="date">Date : </label>
+       <input type="date" id="date" name="date">
+       <br>
+       <br>
+        <h3 style="display: inline;">Cinsiyet</h3> <br><br>
+        Erkek
+        <input type="radio" name="cins" value="erkek">
+        Kadın
+        <input type="radio" name="cins" value="kadın">
+        Diğer
+        <input type="radio" name="cins" value="diğer" checked><br><br>
+        <h3 style="display: inline;">Hobilerin</h3> <br><br>
+        Müzik Dinlemek
+        <input type="checkbox" name="müzik" value="müzik">
+        Oyun oynamak
+        <input type="checkbox" name="Oyun" value="Oyun">
+        Kitap okumak
+        <input type="checkbox" name="Kitap" value="Kitap"><br><br>
+        Mezuniyet :
+        <select name="mezun" id="mezun">
+            <option value="ls" selected>Lisans</option>
+            <option value="öl">Ön Lisans</option>
+        </select><br><br>
+        Mesajlar : <br>
+        <textarea name="message" id="message" cols="30" rows="6" placeholder="Metin girin"></textarea>
+        <br>
+        <br>
+       <input type="submit" value="Gir" style="width: 105px;height: 30px;">
+        <button type="reset" style="width: 110px;height: 30px;">Temizle</button>
+   </form>
+</body>
+</html>
